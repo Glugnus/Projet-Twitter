@@ -6,4 +6,6 @@ module.exports = {
   cert: "/etc/letsencrypt/live/www.dyma-test-project.ovh/fullchain.pem",
 
   key: "/etc/letsencrypt/live/www.dyma-test-project.ovh/privkey.pem",
+  portHttp: 80,
+  portHttps: 443,
 };
